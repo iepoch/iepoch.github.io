@@ -2,7 +2,6 @@
    "version": 2,
   "builds": [
     { "src": "*.html", "use": "@now/static" },
-    { "src": "*.js", "use": "@now/node" },
-    {"src": "*.sass", "use": "@now/node"}
+    { "src": "/js/main.js", "use": "@now/node" }
   ]
 }
