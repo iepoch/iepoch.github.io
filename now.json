@@ -1,7 +1,7 @@
 {
    "version": 2,
    "scripts": {
-     "start": "now"
+     "start": "now",
     "now-build": "next build && next export -o dist"
   },
   "builds": [
