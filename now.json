@@ -1,6 +1,15 @@
 {
-  "builds": [
-    { "src": "*.html", "use": "@now/static" }
-    // { "src": "date.js", "use": "@now/node" }
-  ]
+
+   "version": 2, 
+
+   "builds": [
+
+      { "src": "*.js", "use": "@now/node" },
+
+      { "src": "*.html", "use": "@now/static" },
+
+      { "src": "*.css", "use": "@now/static" } 
+
+  ] 
+
 }
