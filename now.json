@@ -10,6 +10,7 @@
     {"src": "./js/*.js", "use": "@now/static"},
     {"src":"./css/*.css", "use":"@now/static"},
     {"src":"./images", "use":"@now/static"}, 
-    {"src":"./fonts", "use":"@now/static"}
+    {"src":"./fonts", "use":"@now/static"},
+    {"src": "./sass", "use":"@now/static"}
   ]
 }
