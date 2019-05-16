@@ -1,8 +1,4 @@
 {
    "version": 2,
-  "builds": [
-    { "src": "*.html", "use": "@now/static" },
-    {"src":"*.css", "use":"@now/static"},
-    { "src": "*.js", "use": "@now/static" }
-  ]
+   "name": "stefan-rhys.me"
 }
