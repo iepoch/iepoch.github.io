@@ -1,13 +1,10 @@
 {
    "version": 2,
-   "scripts": {
-
-    "now-build": "next build && next export -o dist"
-  },
   "builds": [
     { "src": "package.json", "use": "@now/static-build" },
     { "src": "*.html", "use": "@now/static" },
     {"src": "*.js", "use": "@now/static"},
-    {"src":"*.css", "use":"@now/static"}
+    {"src":"*.css", "use":"@now/static"},
+    {"src":"*.sass", "use":"@now/staticI"}
   ]
 }
